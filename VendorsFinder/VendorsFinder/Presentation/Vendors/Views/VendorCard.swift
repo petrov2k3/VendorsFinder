@@ -69,7 +69,7 @@ struct VendorCard: View {
                                 .resizable()
                                 .indicator(.activity)
                                 .scaledToFit()
-                                .frame(width: 22, height: 22)
+                                .frame(width: 18, height: 18)
                             
                             Text(category.name)
                                 .font(.caption)

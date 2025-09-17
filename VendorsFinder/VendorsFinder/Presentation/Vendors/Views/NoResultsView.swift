@@ -16,7 +16,7 @@ struct NoResultsView: View {
             Text("Sorry! No results found...")
                 .font(.title3).bold()
                 .foregroundStyle(.green)
-            Text("Please try a different search request or browse businesses from the list")
+            Text("Please try a different search request\nor browse businesses from the list")
                 .multilineTextAlignment(.center)
                 .foregroundStyle(.secondary)
                 .padding(.horizontal, 24)
