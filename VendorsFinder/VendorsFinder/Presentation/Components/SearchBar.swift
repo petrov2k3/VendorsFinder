@@ -16,16 +16,25 @@ struct SearchBar: View {
 
     var body: some View {
         HStack(spacing: 8) {
-            TextField(placeholder, text: $text)
-                .focused($isFocused)
-                .textInputAutocapitalization(.words)
-                .keyboardType(.default)
-                .autocorrectionDisabled(true)
-                .submitLabel(.search)
-                .padding(.horizontal, 12)
-                .padding(.vertical, 10)
-                .frame(height: 40)
-
+            TextField(
+                "",
+                text: $text,
+                prompt: Text(placeholder)
+                    .foregroundStyle(Theme.Colors.greySecondary)
+                    .font(Theme.Fonts.subhead())
+            )
+            .focused($isFocused)
+            .textInputAutocapitalization(.words)
+            .keyboardType(.default)
+            .autocorrectionDisabled(true)
+            .submitLabel(.search)
+            .padding(.horizontal, 12)
+            .padding(.vertical, 10)
+            .padding(.leading, 4)
+            .frame(height: 40)
+            .foregroundStyle(Theme.Colors.greyPrimary)
+            .font(Theme.Fonts.subhead())
+            
             if !text.isEmpty {
                 Button {
                     text = ""
@@ -38,8 +47,7 @@ struct SearchBar: View {
                 .transition(.scale.combined(with: .opacity))
             }
 
-            Image("ic_search")
-                .renderingMode(.template)
+            Theme.Icons.search
                 .resizable()
                 .scaledToFit()
                 .frame(width: 24, height: 24)

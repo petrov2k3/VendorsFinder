@@ -21,6 +21,20 @@ enum Theme {
     }
 
     enum Fonts {
-        // TODO: fill after receive fonts
+        static func title(_ size: CGFloat = 24) -> Font {
+            .custom("OpenSans-Bold", size: size)
+        }
+        
+        static func headline(_ size: CGFloat = 16) -> Font {
+            .custom("OpenSans-Bold", size: size)
+        }
+        
+        static func subhead(_ size: CGFloat = 16) -> Font {
+            .custom("OpenSans-Regular", size: size)
+        }
+        
+        static func body(_ size: CGFloat = 14) -> Font {
+            .custom("OpenSans-Regular", size: size)
+        }
     }
 }

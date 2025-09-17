@@ -28,11 +28,11 @@ struct VendorCard: View {
                     .cacheOriginalImage()
                     .fade(duration: 0.2)
                     .setProcessor(
-                        DownsamplingImageProcessor(size: CGSize(width: UIScreen.main.bounds.width, height: 160))
+                        DownsamplingImageProcessor(size: CGSize(width: UIScreen.main.bounds.width, height: 170))
                     )
                     .resizable()
                     .scaledToFill()
-                    .frame(height: 160)
+                    .frame(height: 170)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                 
                 Button(action: {
@@ -49,7 +49,7 @@ struct VendorCard: View {
             .overlay(alignment: .bottomLeading) {
                 if let area = vendor.areaServed, !area.isEmpty {
                     Text(area)
-                        .font(.caption)
+                        .font(Theme.Fonts.body())
                         .padding(.horizontal, 10).padding(.vertical, 6)
                         .background(.white)
                         .opacity(0.9)
@@ -59,7 +59,7 @@ struct VendorCard: View {
             }
             
             Text(vendor.companyName)
-                .font(.headline)
+                .font(Theme.Fonts.headline())
             
             if let categories = vendor.categories {
                 HStack(spacing: 12) {
@@ -72,7 +72,7 @@ struct VendorCard: View {
                                 .frame(width: 18, height: 18)
                             
                             Text(category.name)
-                                .font(.caption)
+                                .font(Theme.Fonts.body())
                         }
                     }
                 }
@@ -81,11 +81,10 @@ struct VendorCard: View {
             
             if let tags = vendor.tags, !tags.isEmpty {
                 Text(tags.map { "\u{2022} \($0.name)" }.joined(separator: " "))
-                    .font(.caption)
+                    .font(Theme.Fonts.body())
                     .foregroundStyle(Theme.Colors.greySecondary)
             }
         }
-        .padding(.vertical, 8)
     }
 }
 
