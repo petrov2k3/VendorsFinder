@@ -11,6 +11,8 @@
 /// Use it when the backend appears
 /// One-line switch in the VendorsViewModel's init
 
+/// __
+/// do nothing
 
 import Foundation
 

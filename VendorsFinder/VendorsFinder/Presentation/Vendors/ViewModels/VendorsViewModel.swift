@@ -14,28 +14,25 @@ final class VendorsViewModel {
     
     // MARK: - Properties
     
-    // input
     var searchText: String = "" {
         didSet { scheduleDebouncedReload() }
     }
 
-    // state
     private(set) var items: [Vendor] = []
+    
     private(set) var isLoading: Bool = false        // common loader (+ search)
     private(set) var isLoadingMore: Bool = false    // pagination loader
     private(set) var canLoadMore: Bool = true
 
-    // deps
     private let repo: VendorsRepository
 
-    // paging
     private var currentPage: Int = 0
     private let pageSize: Int = 12
 
     // debounce / cancellation
     private var searchTask: Task<Void, Never>?
     private var loadTask: Task<Void, Never>?
-    private var searchToken = UUID() // current search marker
+    private var searchToken = UUID()                // current search marker
 
     private var effectiveQuery: String? {
         searchText.count >= 3 ? searchText : nil
@@ -62,7 +59,7 @@ final class VendorsViewModel {
         searchTask?.cancel()
         
         searchTask = Task { [weak self] in
-            try? await Task.sleep(nanoseconds: 500_000_000)
+            try? await Task.sleep(nanoseconds: 500_000_000) // as descibed in Technical Specifications
             await self?.reload()
         }
     }
@@ -90,7 +87,9 @@ final class VendorsViewModel {
                 )
                 
                 // ignore the outdated response
-                guard token == self.searchToken else { return }
+                guard !Task.isCancelled,
+                      token == self.searchToken
+                else { return }
                 
                 self.items = first
                 self.canLoadMore = !first.isEmpty

@@ -5,6 +5,9 @@
 //  Created by Ivan Petrov on 17.09.2025.
 //
 
+/// __
+/// do nothing
+
 import Foundation
 
 enum NetworkError: Error { case badResponse, decoding }

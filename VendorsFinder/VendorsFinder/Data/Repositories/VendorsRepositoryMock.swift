@@ -25,6 +25,8 @@ final class VendorsRepositoryMock: VendorsRepository {
             return decoded.vendors
         }()
 
+        // TODO: icrease the json instead of this:
+        
         // guaranteed ≥3 pages (if there is little data)
         if vendors.count < 36 { // with pageSize=12 it will give 3 pages
             var expanded: [Vendor] = []
@@ -59,10 +61,10 @@ final class VendorsRepositoryMock: VendorsRepository {
         let filtered: [Vendor]
         
         if let query = query, query.count >= 3 {
-            let key = query.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
+            let key = query.normalizedSearchKey
             
             filtered = allVendors.filter {
-                $0.companyName.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
+                $0.companyName.normalizedSearchKey
                     .contains(key)
             }
         } else {

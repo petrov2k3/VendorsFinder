@@ -7,13 +7,14 @@
 
 import SwiftUI
 import Kingfisher
+import SDWebImageSwiftUI
 
 struct VendorCard: View {
     let vendor: Vendor
-
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            ZStack(alignment: .bottomLeading) {
+            ZStack(alignment: .topTrailing) {
                 KFImage(URL(string: vendor.coverPhoto?.mediaURL ?? ""))
                     .placeholder {
                         ZStack {
@@ -33,36 +34,56 @@ struct VendorCard: View {
                     .scaledToFill()
                     .frame(height: 160)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
-                    
-                HStack {
-                    if let areaServed = vendor.areaServed, !areaServed.isEmpty {
-                        Text(areaServed)
-                            .font(.caption)
-                            .padding(.horizontal, 10).padding(.vertical, 6)
-                            .background(.ultraThinMaterial)
-                            .clipShape(Capsule())
-                            .padding(8)
-                    }
-                    Spacer()
+                
+                Button(action: {
+                    // TODO: add action on favorited button tap
+                }) {
+                    Image(systemName: vendor.favorited == true ? "bookmark.fill" : "bookmark")
+                        .foregroundStyle(.green)
+                        .padding(10)
+                        .background(.white)
+                        .clipShape(Circle())
+                        .padding(8)
                 }
             }
-
+            .overlay(alignment: .bottomLeading) {
+                if let area = vendor.areaServed, !area.isEmpty {
+                    Text(area)
+                        .font(.caption)
+                        .padding(.horizontal, 10).padding(.vertical, 6)
+                        .background(.white)
+                        .opacity(0.9)
+                        .clipShape(RoundedRectangle(cornerRadius: 16))
+                        .padding(8)
+                }
+            }
+            
             Text(vendor.companyName)
                 .font(.headline)
-
-            HStack(spacing: 12) {
-                if let shop = vendor.shopType, !shop.isEmpty {
-                    Label(shop, systemImage: "bag.fill")
-                        .font(.caption)
+            
+            if let categories = vendor.categories {
+                HStack(spacing: 12) {
+                    ForEach(categories.prefix(2)) { category in
+                        HStack(spacing: 4) {
+                            WebImage(url: URL(string: category.image?.mediaURL ?? ""))
+                                .resizable()
+                                .indicator(.activity)
+                                .scaledToFit()
+                                .frame(width: 22, height: 22)
+                            
+                            Text(category.name)
+                                .font(.caption)
+                        }
+                    }
                 }
-                // maybe display the first category as the second tag
-            }
-            .foregroundStyle(.secondary)
-
-            // description (placeholder)
-            Text("• Best in town • Discounts for customers")
-                .font(.caption)
                 .foregroundStyle(.secondary)
+            }
+            
+            if let tags = vendor.tags, !tags.isEmpty {
+                Text(tags.map { "\u{2022} \($0.name)" }.joined(separator: " "))
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
         }
         .padding(.vertical, 8)
     }
