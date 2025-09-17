@@ -12,7 +12,7 @@ struct SearchBar: View {
     @FocusState private var isFocused: Bool
     
     var placeholder: String = "Search..."
-    var bottomSpacing: CGFloat = 12
+    var bottomSpacing: CGFloat = 24
 
     var body: some View {
         HStack(spacing: 8) {
@@ -38,21 +38,24 @@ struct SearchBar: View {
                 .transition(.scale.combined(with: .opacity))
             }
 
-            Image(systemName: "magnifyingglass")
-                .font(.system(size: 18))
-                .foregroundStyle(.secondary)
+            Image("ic_search")
+                .renderingMode(.template)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 24, height: 24)
                 .padding(.trailing, 12)
         }
         .animation(.easeInOut(duration: 0.2), value: text.isEmpty)
         .background(
-            Color.white,
-            in: RoundedRectangle(cornerRadius: 12, style: .continuous)
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .fill(Color.white)
+                .shadow(color: .black.opacity(0.08), radius: 8, y: 2)
         )
         .shadow(color: .black.opacity(0.08), radius: 8, y: 2)
         .padding(.horizontal, 16)
         .padding(.top, 24)
         .padding(.bottom, bottomSpacing)
-        .contentShape(Rectangle())
+        .contentShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         .onTapGesture { isFocused = true }
     }
 }

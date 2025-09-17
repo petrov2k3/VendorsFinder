@@ -118,7 +118,11 @@ final class VendorsViewModel {
             guard let self else { return }
             
             do {
-                let next = try await repo.fetchVendors(page: page, pageSize: pageSize, query: effectiveQuery)
+                let next = try await repo.fetchVendors(
+                    page: page,
+                    pageSize: pageSize,
+                    query: effectiveQuery
+                )
                 
                 guard !Task.isCancelled,
                       token == self.searchToken
