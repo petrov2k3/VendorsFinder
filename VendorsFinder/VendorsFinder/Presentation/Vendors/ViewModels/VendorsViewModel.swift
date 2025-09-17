@@ -32,7 +32,7 @@ final class VendorsViewModel {
     // debounce / cancellation
     private var searchTask: Task<Void, Never>?
     private var loadTask: Task<Void, Never>?
-    private var searchToken = UUID()                // current search marker
+    private var searchToken = UUID()                /// current search marker (additional means of reinsurance)
 
     private var effectiveQuery: String? {
         searchText.count >= 3 ? searchText : nil
@@ -47,7 +47,6 @@ final class VendorsViewModel {
     // MARK: - Inits
     
     /// change VendorsRepositoryMock() to VendorsRepositoryLive() when it's real API integration
-    
     init(repo: VendorsRepository = VendorsRepositoryMock()) {
         self.repo = repo
         Task { await reload() }
