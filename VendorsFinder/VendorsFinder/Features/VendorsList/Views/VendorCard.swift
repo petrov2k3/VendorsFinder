@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct VendorCard: View {
     let vendor: Vendor
@@ -13,17 +14,29 @@ struct VendorCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             ZStack(alignment: .bottomLeading) {
-                AsyncImage(url: URL(string: vendor.cover_photo?.media_url ?? "")) { img in
-                    img.resizable().scaledToFill()
-                } placeholder: {
-                    Rectangle().opacity(0.1)
-                }
-                .frame(height: 160)
-                .clipShape(RoundedRectangle(cornerRadius: 10))
-
+                KFImage(URL(string: vendor.cover_photo?.media_url ?? ""))
+                    .placeholder {
+                        ZStack {
+                            Rectangle()
+                                .opacity(0.1)
+                            ProgressView()
+                        }
+                    }
+                    .cancelOnDisappear(true)
+                    .loadDiskFileSynchronously()
+                    .cacheOriginalImage()
+                    .fade(duration: 0.2)
+                    .setProcessor(
+                        DownsamplingImageProcessor(size: CGSize(width: UIScreen.main.bounds.width, height: 160))
+                    )
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 160)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                    
                 HStack {
-                    if let city = vendor.area_served, !city.isEmpty {
-                        Text(city)
+                    if let areaServed = vendor.area_served, !areaServed.isEmpty {
+                        Text(areaServed)
                             .font(.caption)
                             .padding(.horizontal, 10).padding(.vertical, 6)
                             .background(.ultraThinMaterial)
