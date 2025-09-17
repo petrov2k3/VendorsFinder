@@ -13,13 +13,16 @@ struct NoResultsView: View {
     var body: some View {
         VStack(spacing: 12) {
             Spacer()
+            
             Text("Sorry! No results found...")
                 .font(.title3).bold()
-                .foregroundStyle(.green)
+                .foregroundStyle(Theme.Colors.darkGreen)
+            
             Text("Please try a different search request\nor browse businesses from the list")
                 .multilineTextAlignment(.center)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(Theme.Colors.greyPrimary)
                 .padding(.horizontal, 24)
+            
             Spacer()
         }
     }

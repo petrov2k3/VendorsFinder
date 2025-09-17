@@ -32,7 +32,7 @@ struct SearchBar: View {
                 } label: {
                     Image(systemName: "xmark.circle.fill")
                         .font(.system(size: 16))
-                        .foregroundStyle(.green)
+                        .foregroundStyle(Theme.Colors.green)
                 }
                 .padding(.trailing, 4)
                 .transition(.scale.combined(with: .opacity))

@@ -39,7 +39,7 @@ struct VendorCard: View {
                     // TODO: add action on favorited button tap
                 }) {
                     Image(systemName: vendor.favorited == true ? "bookmark.fill" : "bookmark")
-                        .foregroundStyle(.green)
+                        .foregroundStyle(Theme.Colors.green)
                         .padding(10)
                         .background(.white)
                         .clipShape(Circle())
@@ -76,13 +76,13 @@ struct VendorCard: View {
                         }
                     }
                 }
-                .foregroundStyle(.secondary)
+                .foregroundStyle(Theme.Colors.greyPrimary)
             }
             
             if let tags = vendor.tags, !tags.isEmpty {
                 Text(tags.map { "\u{2022} \($0.name)" }.joined(separator: " "))
                     .font(.caption)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(Theme.Colors.greySecondary)
             }
         }
         .padding(.vertical, 8)
