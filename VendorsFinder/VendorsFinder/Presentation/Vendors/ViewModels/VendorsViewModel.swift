@@ -96,7 +96,7 @@ final class VendorsViewModel {
                 self.currentPage = first.isEmpty ? 0 : 1
                 
             } catch {
-                // in the mock mode, errors are unlikely, but:
+                // in the mock mode errors are unlikely, but:
                 // TODO: add error state
                 
                 self.canLoadMore = false
@@ -121,8 +121,9 @@ final class VendorsViewModel {
             do {
                 let next = try await repo.fetchVendors(page: page, pageSize: pageSize, query: effectiveQuery)
                 
-                // ignoring if a new search has started during this time
-                guard token == self.searchToken else { return }
+                guard !Task.isCancelled,
+                      token == self.searchToken
+                else { return }
                 
                 if next.isEmpty {
                     self.canLoadMore = false
