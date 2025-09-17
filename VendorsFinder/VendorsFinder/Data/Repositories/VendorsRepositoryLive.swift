@@ -5,10 +5,14 @@
 //  Created by Ivan Petrov on 17.09.2025.
 //
 
-import Foundation
 
+/// __
+/// for the future (real API)
 /// Use it when the backend appears
-/// One-line switch in VendorsViewModel's init
+/// One-line switch in the VendorsViewModel's init
+
+
+import Foundation
 
 //final class VendorsRepositoryLive: VendorsRepository {
 //    private let client: NetworkClient

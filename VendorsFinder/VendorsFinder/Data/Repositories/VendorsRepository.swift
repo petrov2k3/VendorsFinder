@@ -8,8 +8,5 @@
 import Foundation
 
 protocol VendorsRepository {
-    
-    /// emulating a real server: pagination + search
-    
     func fetchVendors(page: Int, pageSize: Int, query: String?) async throws -> [Vendor]
 }

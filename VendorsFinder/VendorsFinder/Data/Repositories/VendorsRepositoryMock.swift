@@ -5,13 +5,17 @@
 //  Created by Ivan Petrov on 17.09.2025.
 //
 
+
+/// __
+/// json + server emulation (pagination + search)
+
+
 import Foundation
 
 final class VendorsRepositoryMock: VendorsRepository {
-    private let all: [Vendor]
+    private let allVendors: [Vendor]
 
     init() {
-        // read vendors.json once
         let vendors: [Vendor] = {
             guard let url = Bundle.main.url(forResource: "vendors", withExtension: "json"),
                   let data = try? Data(contentsOf: url),
@@ -41,9 +45,9 @@ final class VendorsRepositoryMock: VendorsRepository {
                     )
                 }
             }
-            self.all = expanded
+            self.allVendors = expanded
         } else {
-            self.all = vendors
+            self.allVendors = vendors
         }
     }
 
@@ -57,12 +61,12 @@ final class VendorsRepositoryMock: VendorsRepository {
         if let query = query, query.count >= 3 {
             let key = query.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
             
-            filtered = all.filter {
+            filtered = allVendors.filter {
                 $0.companyName.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
                     .contains(key)
             }
         } else {
-            filtered = all
+            filtered = allVendors
         }
 
         // server-side pagination
