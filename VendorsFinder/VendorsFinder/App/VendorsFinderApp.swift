@@ -11,7 +11,7 @@ import SwiftUI
 struct VendorsFinderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VendorsScreen()
         }
     }
 }
