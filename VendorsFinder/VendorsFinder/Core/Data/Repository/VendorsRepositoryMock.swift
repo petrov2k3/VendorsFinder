@@ -15,7 +15,7 @@ final class VendorsRepositoryMock: VendorsRepository {
         let vendors: [Vendor] = {
             guard let url = Bundle.main.url(forResource: "vendors", withExtension: "json"),
                   let data = try? Data(contentsOf: url),
-                  let decoded = try? JSONDecoder().decode(VendorsResponse.self, from: data)
+                  let decoded = try? JSONDecoder().decode(Vendors.self, from: data)
             else { return [] }
             
             return decoded.vendors
@@ -26,16 +26,18 @@ final class VendorsRepositoryMock: VendorsRepository {
             var expanded: [Vendor] = []
             let copies = max(3, Int(ceil(Double(36) / Double(max(1, vendors.count)))))
             for c in 0..<copies {
-                expanded += vendors.map { v in
+                expanded += vendors.map { vendor in
                     Vendor(
-                        id: v.id * 1000 + c,
-                        company_name: "\(v.company_name) #\(c+1)",
-                        area_served: v.area_served,
-                        shop_type: v.shop_type,
-                        favorited: v.favorited,
-                        follow: v.follow,
-                        business_type: v.business_type,
-                        cover_photo: v.cover_photo
+                        id: vendor.id * 1000 + c,
+                        companyName: "\(vendor.companyName) #\(c+1)",
+                        areaServed: vendor.areaServed,
+                        shopType: vendor.shopType,
+                        favorited: vendor.favorited,
+                        follow: vendor.follow,
+                        businessType: vendor.businessType,
+                        coverPhoto: vendor.coverPhoto,
+                        categories: vendor.categories,
+                        tags: vendor.tags
                     )
                 }
             }
@@ -49,13 +51,14 @@ final class VendorsRepositoryMock: VendorsRepository {
         // simulate network latency to show loader
         try? await Task.sleep(nanoseconds: 250_000_000) // 0.25s
 
-        // filter only by company_name (≥3 characters)
+        // filter only by companyName (>= 3 characters)
         let filtered: [Vendor]
         
-        if let q = query, q.count >= 3 {
-            let key = q.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
+        if let query = query, query.count >= 3 {
+            let key = query.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
+            
             filtered = all.filter {
-                $0.company_name.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
+                $0.companyName.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
                     .contains(key)
             }
         } else {

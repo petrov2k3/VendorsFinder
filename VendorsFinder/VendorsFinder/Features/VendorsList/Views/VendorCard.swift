@@ -14,7 +14,7 @@ struct VendorCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             ZStack(alignment: .bottomLeading) {
-                KFImage(URL(string: vendor.cover_photo?.media_url ?? ""))
+                KFImage(URL(string: vendor.coverPhoto?.mediaURL ?? ""))
                     .placeholder {
                         ZStack {
                             Rectangle()
@@ -35,7 +35,7 @@ struct VendorCard: View {
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     
                 HStack {
-                    if let areaServed = vendor.area_served, !areaServed.isEmpty {
+                    if let areaServed = vendor.areaServed, !areaServed.isEmpty {
                         Text(areaServed)
                             .font(.caption)
                             .padding(.horizontal, 10).padding(.vertical, 6)
@@ -47,11 +47,11 @@ struct VendorCard: View {
                 }
             }
 
-            Text(vendor.company_name)
+            Text(vendor.companyName)
                 .font(.headline)
 
             HStack(spacing: 12) {
-                if let shop = vendor.shop_type, !shop.isEmpty {
+                if let shop = vendor.shopType, !shop.isEmpty {
                     Label(shop, systemImage: "bag.fill")
                         .font(.caption)
                 }
