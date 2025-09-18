@@ -56,7 +56,7 @@ struct SearchBar: View {
         .animation(.easeInOut(duration: 0.2), value: text.isEmpty)
         .background(
             RoundedRectangle(cornerRadius: 16, style: .continuous)
-                .fill(Color.white)
+                .fill(Theme.Colors.white)
                 .shadow(color: .black.opacity(0.08), radius: 8, y: 2)
         )
         .shadow(color: .black.opacity(0.08), radius: 8, y: 2)

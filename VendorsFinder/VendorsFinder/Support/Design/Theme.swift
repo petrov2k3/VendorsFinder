@@ -11,9 +11,9 @@ enum Theme {
     enum Colors {
         static let greyPrimary   = Color("grey_primary")
         static let greySecondary = Color("grey_secondary")
-        static let green         = Color("green")
+        static let green         = Color("green_primary")
         static let darkGreen     = Color("dark_green")
-        static let white         = Color("white")
+        static let white         = Color("white_primary")
     }
 
     enum Icons {
