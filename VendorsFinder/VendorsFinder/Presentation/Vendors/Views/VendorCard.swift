@@ -35,16 +35,16 @@ struct VendorCard: View {
                     .frame(height: 170)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                 
-                Button(action: {
+                Button {
                     // TODO: add action on favorited button tap
-                }) {
-                    Image(systemName: vendor.favorited == true ? "bookmark.fill" : "bookmark")
-                        .foregroundStyle(Theme.Colors.green)
-                        .padding(10)
-                        .background(.white)
-                        .clipShape(Circle())
-                        .padding(8)
+                } label: {
+                    (vendor.favorited == true
+                        ? Theme.Icons.favoritedActive
+                        : Theme.Icons.favoritedInactive
+                    )
                 }
+                .padding(.top, 5)
+                .padding(.trailing, -5)
             }
             .overlay(alignment: .bottomLeading) {
                 if let area = vendor.areaServed, !area.isEmpty {
@@ -69,7 +69,7 @@ struct VendorCard: View {
                                 .resizable()
                                 .indicator(.activity)
                                 .scaledToFit()
-                                .frame(width: 18, height: 18)
+                                .frame(width: 22, height: 22)
                             
                             Text(category.name)
                                 .font(Theme.Fonts.body())

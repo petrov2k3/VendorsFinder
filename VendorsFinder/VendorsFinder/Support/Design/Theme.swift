@@ -17,7 +17,9 @@ enum Theme {
     }
 
     enum Icons {
-        static let search = Image("ic_search")
+        static let search            = Image("ic_search")
+        static let favoritedActive   = Image("ic_favorited_active")
+        static let favoritedInactive = Image("ic_favorited_inactive")
     }
 
     enum Fonts {

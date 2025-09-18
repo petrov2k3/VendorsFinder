@@ -15,11 +15,12 @@ struct NoResultsView: View {
             Spacer()
             
             Text("Sorry! No results found...")
-                .font(.title3).bold()
+                .font(Theme.Fonts.title())
                 .foregroundStyle(Theme.Colors.darkGreen)
             
             Text("Please try a different search request\nor browse businesses from the list")
                 .multilineTextAlignment(.center)
+                .font(Theme.Fonts.subhead())
                 .foregroundStyle(Theme.Colors.greyPrimary)
                 .padding(.horizontal, 24)
             
