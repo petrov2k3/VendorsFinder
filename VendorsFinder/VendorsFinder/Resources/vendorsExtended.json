@@ -1,0 +1,1849 @@
+{
+  "vendors": [
+    {
+      "id": 99,
+      "company_name": "Florists + Fashion",
+      "area_served": "Newry",
+      "shop_type": "Bike Shop",
+      "favorited": false,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 984,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 40,
+          "name": "Florists",
+          "image": {
+            "id": 1348,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 41,
+          "name": "Fashion Accessories",
+          "image": {
+            "id": 1366,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 42,
+          "name": "Garden",
+          "image": {
+            "id": 1348,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 43,
+          "name": "Home",
+          "image": {
+            "id": 1366,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 99,
+          "name": "BMX",
+          "purpose": "shop"
+        },
+        {
+          "id": 100,
+          "name": "Giant",
+          "purpose": "shop"
+        },
+        {
+          "id": 101,
+          "name": "Cycle",
+          "purpose": "shop"
+        },
+        {
+          "id": 102,
+          "name": "BMX",
+          "purpose": "shop"
+        },
+        {
+          "id": 103,
+          "name": "Giant",
+          "purpose": "shop"
+        },
+        {
+          "id": 104,
+          "name": "Cycle",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "company_name": "Cafe & Restaurant",
+      "area_served": "Ukraine",
+      "shop_type": "Flowers",
+      "favorited": true,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 980,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 53,
+          "name": "Cafe & Restaurant",
+          "image": {
+            "id": 1344,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 85,
+          "name": "Cafe",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "company_name": "Pets",
+      "area_served": "Dnipro",
+      "shop_type": "Bar",
+      "favorited": false,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 1381,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 54,
+          "name": "Pets",
+          "image": {
+            "id": 1345,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 55,
+          "name": "Home",
+          "image": {
+            "id": 1345,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 60,
+          "name": "New",
+          "purpose": "shop"
+        },
+        {
+          "id": 86,
+          "name": "Test",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "company_name": "Florists + Fashion",
+      "area_served": "Newry",
+      "shop_type": "Bike Shop",
+      "favorited": true,
+      "follow": true,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 900,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 100,
+          "name": "Florists",
+          "image": {
+            "id": 1300,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 101,
+          "name": "Bike Shop",
+          "image": {
+            "id": 1301,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 300,
+          "name": "Florists",
+          "purpose": "shop"
+        },
+        {
+          "id": 301,
+          "name": "Bike",
+          "purpose": "shop"
+        },
+        {
+          "id": 302,
+          "name": "Newry",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "company_name": "Cafe & Restaurant",
+      "area_served": "Ukraine",
+      "shop_type": "Flowers",
+      "favorited": false,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 901,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 102,
+          "name": "Cafe",
+          "image": {
+            "id": 1302,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 103,
+          "name": "Flowers",
+          "image": {
+            "id": 1303,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 303,
+          "name": "Cafe",
+          "purpose": "shop"
+        },
+        {
+          "id": 304,
+          "name": "Flowers",
+          "purpose": "shop"
+        },
+        {
+          "id": 305,
+          "name": "Ukraine",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "company_name": "Pets",
+      "area_served": "Dnipro",
+      "shop_type": "Bar",
+      "favorited": false,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 902,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 104,
+          "name": "Pets",
+          "image": {
+            "id": 1304,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 105,
+          "name": "Bar",
+          "image": {
+            "id": 1305,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 306,
+          "name": "Pets",
+          "purpose": "shop"
+        },
+        {
+          "id": 307,
+          "name": "Bar",
+          "purpose": "shop"
+        },
+        {
+          "id": 308,
+          "name": "Dnipro",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "company_name": "Electronics World",
+      "area_served": "London",
+      "shop_type": "Electronics",
+      "favorited": false,
+      "follow": true,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 903,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 106,
+          "name": "Electronics",
+          "image": {
+            "id": 1306,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 107,
+          "name": "Electronics",
+          "image": {
+            "id": 1307,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 309,
+          "name": "Electronics",
+          "purpose": "shop"
+        },
+        {
+          "id": 310,
+          "name": "Electronics",
+          "purpose": "shop"
+        },
+        {
+          "id": 311,
+          "name": "London",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "company_name": "Green Grocers",
+      "area_served": "Berlin",
+      "shop_type": "Grocery",
+      "favorited": false,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 904,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 108,
+          "name": "Green",
+          "image": {
+            "id": 1308,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 109,
+          "name": "Grocery",
+          "image": {
+            "id": 1309,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 312,
+          "name": "Green",
+          "purpose": "shop"
+        },
+        {
+          "id": 313,
+          "name": "Grocery",
+          "purpose": "shop"
+        },
+        {
+          "id": 314,
+          "name": "Berlin",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "company_name": "Home & Living",
+      "area_served": "Paris",
+      "shop_type": "Homeware",
+      "favorited": true,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 905,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 110,
+          "name": "Home",
+          "image": {
+            "id": 1310,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 111,
+          "name": "Homeware",
+          "image": {
+            "id": 1311,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 315,
+          "name": "Home",
+          "purpose": "shop"
+        },
+        {
+          "id": 316,
+          "name": "Homeware",
+          "purpose": "shop"
+        },
+        {
+          "id": 317,
+          "name": "Paris",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "company_name": "Books & Stationery",
+      "area_served": "Rome",
+      "shop_type": "Books",
+      "favorited": false,
+      "follow": true,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 906,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 112,
+          "name": "Books",
+          "image": {
+            "id": 1312,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 113,
+          "name": "Books",
+          "image": {
+            "id": 1313,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 318,
+          "name": "Books",
+          "purpose": "shop"
+        },
+        {
+          "id": 319,
+          "name": "Books",
+          "purpose": "shop"
+        },
+        {
+          "id": 320,
+          "name": "Rome",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "company_name": "Outdoor & Garden",
+      "area_served": "Madrid",
+      "shop_type": "Garden",
+      "favorited": false,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 907,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 114,
+          "name": "Outdoor",
+          "image": {
+            "id": 1314,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 115,
+          "name": "Garden",
+          "image": {
+            "id": 1315,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 321,
+          "name": "Outdoor",
+          "purpose": "shop"
+        },
+        {
+          "id": 322,
+          "name": "Garden",
+          "purpose": "shop"
+        },
+        {
+          "id": 323,
+          "name": "Madrid",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "company_name": "Sports Hub",
+      "area_served": "Warsaw",
+      "shop_type": "Sports",
+      "favorited": false,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 908,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 116,
+          "name": "Sports",
+          "image": {
+            "id": 1316,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 117,
+          "name": "Sports",
+          "image": {
+            "id": 1317,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 324,
+          "name": "Sports",
+          "purpose": "shop"
+        },
+        {
+          "id": 325,
+          "name": "Sports",
+          "purpose": "shop"
+        },
+        {
+          "id": 326,
+          "name": "Warsaw",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "company_name": "Kids & Toys",
+      "area_served": "Prague",
+      "shop_type": "Toys",
+      "favorited": false,
+      "follow": true,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 909,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 118,
+          "name": "Kids",
+          "image": {
+            "id": 1318,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 119,
+          "name": "Toys",
+          "image": {
+            "id": 1319,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 327,
+          "name": "Kids",
+          "purpose": "shop"
+        },
+        {
+          "id": 328,
+          "name": "Toys",
+          "purpose": "shop"
+        },
+        {
+          "id": 329,
+          "name": "Prague",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "company_name": "Beauty & Care",
+      "area_served": "Vienna",
+      "shop_type": "Beauty",
+      "favorited": true,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 910,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 120,
+          "name": "Beauty",
+          "image": {
+            "id": 1320,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 121,
+          "name": "Beauty",
+          "image": {
+            "id": 1321,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 330,
+          "name": "Beauty",
+          "purpose": "shop"
+        },
+        {
+          "id": 331,
+          "name": "Beauty",
+          "purpose": "shop"
+        },
+        {
+          "id": 332,
+          "name": "Vienna",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "company_name": "Health & Pharmacy",
+      "area_served": "Budapest",
+      "shop_type": "Pharmacy",
+      "favorited": false,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 911,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 122,
+          "name": "Health",
+          "image": {
+            "id": 1322,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 123,
+          "name": "Pharmacy",
+          "image": {
+            "id": 1323,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 333,
+          "name": "Health",
+          "purpose": "shop"
+        },
+        {
+          "id": 334,
+          "name": "Pharmacy",
+          "purpose": "shop"
+        },
+        {
+          "id": 335,
+          "name": "Budapest",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "company_name": "Tech & Gadgets",
+      "area_served": "Bucharest",
+      "shop_type": "Tech",
+      "favorited": false,
+      "follow": true,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 912,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 124,
+          "name": "Tech",
+          "image": {
+            "id": 1324,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 125,
+          "name": "Tech",
+          "image": {
+            "id": 1325,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 336,
+          "name": "Tech",
+          "purpose": "shop"
+        },
+        {
+          "id": 337,
+          "name": "Tech",
+          "purpose": "shop"
+        },
+        {
+          "id": 338,
+          "name": "Bucharest",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "company_name": "Baker's Corner",
+      "area_served": "Sofia",
+      "shop_type": "Bakery",
+      "favorited": false,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 913,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 126,
+          "name": "Baker's",
+          "image": {
+            "id": 1326,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 127,
+          "name": "Bakery",
+          "image": {
+            "id": 1327,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 339,
+          "name": "Baker's",
+          "purpose": "shop"
+        },
+        {
+          "id": 340,
+          "name": "Bakery",
+          "purpose": "shop"
+        },
+        {
+          "id": 341,
+          "name": "Sofia",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "company_name": "Coffee Roasters",
+      "area_served": "Athens",
+      "shop_type": "Coffee",
+      "favorited": false,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 914,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 128,
+          "name": "Coffee",
+          "image": {
+            "id": 1328,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 129,
+          "name": "Coffee",
+          "image": {
+            "id": 1329,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 342,
+          "name": "Coffee",
+          "purpose": "shop"
+        },
+        {
+          "id": 343,
+          "name": "Coffee",
+          "purpose": "shop"
+        },
+        {
+          "id": 344,
+          "name": "Athens",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "company_name": "Vintage Boutique",
+      "area_served": "Dublin",
+      "shop_type": "Clothes",
+      "favorited": true,
+      "follow": true,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 915,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 130,
+          "name": "Vintage",
+          "image": {
+            "id": 1330,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 131,
+          "name": "Clothes",
+          "image": {
+            "id": 1331,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 345,
+          "name": "Vintage",
+          "purpose": "shop"
+        },
+        {
+          "id": 346,
+          "name": "Clothes",
+          "purpose": "shop"
+        },
+        {
+          "id": 347,
+          "name": "Dublin",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "company_name": "Music Store",
+      "area_served": "Lisbon",
+      "shop_type": "Music",
+      "favorited": false,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 916,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 132,
+          "name": "Music",
+          "image": {
+            "id": 1332,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 133,
+          "name": "Music",
+          "image": {
+            "id": 1333,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 348,
+          "name": "Music",
+          "purpose": "shop"
+        },
+        {
+          "id": 349,
+          "name": "Music",
+          "purpose": "shop"
+        },
+        {
+          "id": 350,
+          "name": "Lisbon",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "company_name": "Pet Grooming",
+      "area_served": "Zurich",
+      "shop_type": "Pet Services",
+      "favorited": false,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 917,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 134,
+          "name": "Pet",
+          "image": {
+            "id": 1334,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 135,
+          "name": "Pet Services",
+          "image": {
+            "id": 1335,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 351,
+          "name": "Pet",
+          "purpose": "shop"
+        },
+        {
+          "id": 352,
+          "name": "Pet",
+          "purpose": "shop"
+        },
+        {
+          "id": 353,
+          "name": "Zurich",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "company_name": "Art & Crafts",
+      "area_served": "Oslo",
+      "shop_type": "Art",
+      "favorited": false,
+      "follow": true,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 918,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 136,
+          "name": "Art",
+          "image": {
+            "id": 1336,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 137,
+          "name": "Art",
+          "image": {
+            "id": 1337,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 354,
+          "name": "Art",
+          "purpose": "shop"
+        },
+        {
+          "id": 355,
+          "name": "Art",
+          "purpose": "shop"
+        },
+        {
+          "id": 356,
+          "name": "Oslo",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "company_name": "Auto Parts",
+      "area_served": "Stockholm",
+      "shop_type": "Auto",
+      "favorited": false,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 919,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 138,
+          "name": "Auto",
+          "image": {
+            "id": 1338,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 139,
+          "name": "Auto",
+          "image": {
+            "id": 1339,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 357,
+          "name": "Auto",
+          "purpose": "shop"
+        },
+        {
+          "id": 358,
+          "name": "Auto",
+          "purpose": "shop"
+        },
+        {
+          "id": 359,
+          "name": "Stockholm",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "company_name": "Barbershop",
+      "area_served": "Helsinki",
+      "shop_type": "Barber",
+      "favorited": true,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 920,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 140,
+          "name": "Barbershop",
+          "image": {
+            "id": 1340,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 141,
+          "name": "Barber",
+          "image": {
+            "id": 1341,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 360,
+          "name": "Barbershop",
+          "purpose": "shop"
+        },
+        {
+          "id": 361,
+          "name": "Barber",
+          "purpose": "shop"
+        },
+        {
+          "id": 362,
+          "name": "Helsinki",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "company_name": "Wine & Cheese",
+      "area_served": "Copenhagen",
+      "shop_type": "Wine",
+      "favorited": false,
+      "follow": true,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 921,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 142,
+          "name": "Wine",
+          "image": {
+            "id": 1342,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 143,
+          "name": "Wine",
+          "image": {
+            "id": 1343,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 363,
+          "name": "Wine",
+          "purpose": "shop"
+        },
+        {
+          "id": 364,
+          "name": "Wine",
+          "purpose": "shop"
+        },
+        {
+          "id": 365,
+          "name": "Copenhagen",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "company_name": "Organic Market",
+      "area_served": "Tallinn",
+      "shop_type": "Organic",
+      "favorited": false,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 922,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 144,
+          "name": "Organic",
+          "image": {
+            "id": 1344,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 145,
+          "name": "Organic",
+          "image": {
+            "id": 1345,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 366,
+          "name": "Organic",
+          "purpose": "shop"
+        },
+        {
+          "id": 367,
+          "name": "Organic",
+          "purpose": "shop"
+        },
+        {
+          "id": 368,
+          "name": "Tallinn",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "company_name": "Furniture Studio",
+      "area_served": "Riga",
+      "shop_type": "Furniture",
+      "favorited": false,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 923,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 146,
+          "name": "Furniture",
+          "image": {
+            "id": 1346,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 147,
+          "name": "Furniture",
+          "image": {
+            "id": 1347,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 369,
+          "name": "Furniture",
+          "purpose": "shop"
+        },
+        {
+          "id": 370,
+          "name": "Furniture",
+          "purpose": "shop"
+        },
+        {
+          "id": 371,
+          "name": "Riga",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "company_name": "Boutique Fitness",
+      "area_served": "Vilnius",
+      "shop_type": "Fitness",
+      "favorited": false,
+      "follow": true,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 924,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 148,
+          "name": "Boutique",
+          "image": {
+            "id": 1348,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 149,
+          "name": "Fitness",
+          "image": {
+            "id": 1349,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 372,
+          "name": "Boutique",
+          "purpose": "shop"
+        },
+        {
+          "id": 373,
+          "name": "Fitness",
+          "purpose": "shop"
+        },
+        {
+          "id": 374,
+          "name": "Vilnius",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "company_name": "Gaming Arena",
+      "area_served": "Istanbul",
+      "shop_type": "Gaming",
+      "favorited": true,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 925,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 150,
+          "name": "Gaming",
+          "image": {
+            "id": 1350,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 151,
+          "name": "Gaming",
+          "image": {
+            "id": 1351,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 375,
+          "name": "Gaming",
+          "purpose": "shop"
+        },
+        {
+          "id": 376,
+          "name": "Gaming",
+          "purpose": "shop"
+        },
+        {
+          "id": 377,
+          "name": "Istanbul",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "company_name": "Travel & Luggage",
+      "area_served": "Tbilisi",
+      "shop_type": "Travel",
+      "favorited": false,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 926,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 152,
+          "name": "Travel",
+          "image": {
+            "id": 1352,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 153,
+          "name": "Travel",
+          "image": {
+            "id": 1353,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 378,
+          "name": "Travel",
+          "purpose": "shop"
+        },
+        {
+          "id": 379,
+          "name": "Travel",
+          "purpose": "shop"
+        },
+        {
+          "id": 380,
+          "name": "Tbilisi",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "company_name": "Photo Studio",
+      "area_served": "Yerevan",
+      "shop_type": "Photo",
+      "favorited": false,
+      "follow": true,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 927,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 154,
+          "name": "Photo",
+          "image": {
+            "id": 1354,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 155,
+          "name": "Photo",
+          "image": {
+            "id": 1355,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 381,
+          "name": "Photo",
+          "purpose": "shop"
+        },
+        {
+          "id": 382,
+          "name": "Photo",
+          "purpose": "shop"
+        },
+        {
+          "id": 383,
+          "name": "Yerevan",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "company_name": "DIY Hardware",
+      "area_served": "Amsterdam",
+      "shop_type": "Hardware",
+      "favorited": false,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 928,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 156,
+          "name": "DIY",
+          "image": {
+            "id": 1356,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 157,
+          "name": "Hardware",
+          "image": {
+            "id": 1357,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 384,
+          "name": "DIY",
+          "purpose": "shop"
+        },
+        {
+          "id": 385,
+          "name": "Hardware",
+          "purpose": "shop"
+        },
+        {
+          "id": 386,
+          "name": "Amsterdam",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "company_name": "Mobile Repair",
+      "area_served": "Brussels",
+      "shop_type": "Repair",
+      "favorited": false,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 929,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 158,
+          "name": "Mobile",
+          "image": {
+            "id": 1358,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 159,
+          "name": "Repair",
+          "image": {
+            "id": 1359,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 387,
+          "name": "Mobile",
+          "purpose": "shop"
+        },
+        {
+          "id": 388,
+          "name": "Repair",
+          "purpose": "shop"
+        },
+        {
+          "id": 389,
+          "name": "Brussels",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "company_name": "Sneaker Store",
+      "area_served": "Luxembourg",
+      "shop_type": "Sneakers",
+      "favorited": true,
+      "follow": true,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 930,
+        "media_url": "https://i.imgur.com/OnwEDW3.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 160,
+          "name": "Sneaker",
+          "image": {
+            "id": 1360,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 161,
+          "name": "Sneakers",
+          "image": {
+            "id": 1361,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 390,
+          "name": "Sneaker",
+          "purpose": "shop"
+        },
+        {
+          "id": 391,
+          "name": "Sneakers",
+          "purpose": "shop"
+        },
+        {
+          "id": 392,
+          "name": "Luxembourg",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "company_name": "Jewelry House",
+      "area_served": "Monaco",
+      "shop_type": "Jewelry",
+      "favorited": false,
+      "follow": false,
+      "business_type": "physical",
+      "cover_photo": {
+        "id": 931,
+        "media_url": "https://i.imgur.com/CzXTtJV.jpg",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 162,
+          "name": "Jewelry",
+          "image": {
+            "id": 1362,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 163,
+          "name": "Jewelry",
+          "image": {
+            "id": 1363,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 393,
+          "name": "Jewelry",
+          "purpose": "shop"
+        },
+        {
+          "id": 394,
+          "name": "Jewelry",
+          "purpose": "shop"
+        },
+        {
+          "id": 395,
+          "name": "Monaco",
+          "purpose": "shop"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "company_name": "Tea & Spices",
+      "area_served": "Reykjavik",
+      "shop_type": "Tea",
+      "favorited": false,
+      "follow": false,
+      "business_type": "virtual",
+      "cover_photo": {
+        "id": 932,
+        "media_url": "https://cdn-staging.chatsumer.app/eyJidWNrZXQiOiJjaGF0c3VtZXItZ2VuZXJhbC1zdGFnaW5nLXN0b3JhZ2UiLCJrZXkiOiIxMy84ZjMzZTgyNy0yNzIxLTQ3ZjctYjViNS0zM2Q5Y2E2MTM1OGQuanBlZyJ9",
+        "media_type": "image"
+      },
+      "categories": [
+        {
+          "id": 164,
+          "name": "Tea",
+          "image": {
+            "id": 1364,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        },
+        {
+          "id": 165,
+          "name": "Tea",
+          "image": {
+            "id": 1365,
+            "media_url": "https://media-staging.chatsumer.app/48/1830f855-6315-4d3c-a5dc-088ea826aef2.svg",
+            "media_type": "image"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "id": 396,
+          "name": "Tea",
+          "purpose": "shop"
+        },
+        {
+          "id": 397,
+          "name": "Tea",
+          "purpose": "shop"
+        },
+        {
+          "id": 398,
+          "name": "Reykjavik",
+          "purpose": "shop"
+        }
+      ]
+    }
+  ]
+}
