@@ -15,25 +15,28 @@ struct VendorCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             ZStack(alignment: .topTrailing) {
-                KFImage(URL(string: vendor.coverPhoto?.mediaURL ?? ""))
-                    .placeholder {
-                        ZStack {
-                            Rectangle()
-                                .opacity(0.1)
-                            ProgressView()
+                GeometryReader { geo in
+                    let targetSize = CGSize(width: geo.size.width, height: 170)
+                    
+                    KFImage(URL(string: vendor.coverPhoto?.mediaURL ?? ""))
+                        .placeholder {
+                            ZStack {
+                                Rectangle()
+                                    .opacity(0.1)
+                                ProgressView()
+                            }
                         }
-                    }
-                    .cancelOnDisappear(true)
-                    .loadDiskFileSynchronously()
-                    .cacheOriginalImage()
-                    .fade(duration: 0.2)
-                    .setProcessor(
-                        DownsamplingImageProcessor(size: CGSize(width: UIScreen.main.bounds.width, height: 170))
-                    )
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 170)
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                        .cancelOnDisappear(true)
+                        .loadDiskFileSynchronously()
+                        .cacheOriginalImage()
+                        .fade(duration: 0.2)
+                        .setProcessor(DownsamplingImageProcessor(size: targetSize))
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: geo.size.width, height: 170)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                }
+                .frame(height: 170)
                 
                 Button {
                     // TODO: add action on favorited button tap
